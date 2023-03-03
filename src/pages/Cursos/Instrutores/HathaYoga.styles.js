@@ -9,6 +9,11 @@ export const CursosContent = styled(BasicContent)`
   margin: 0px auto;
   list-style-position: outside;
   /* background-color: red; */
+  @media screen and (max-width: 600px) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "img" "text";
+  }
 `;
 
 export const Img = styled.div`
@@ -20,6 +25,10 @@ export const Img = styled.div`
         height: 350px;
         object-fit: cover;
         /* position: relative; */
+        @media screen and (max-width: 600px) {
+          /* display: none; */
+          width: 100%;
+        }
     }
     /* div {
         position: absolute;

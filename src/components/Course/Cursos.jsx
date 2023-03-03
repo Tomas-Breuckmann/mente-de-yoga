@@ -30,9 +30,9 @@ export default function Cursos() {
             Com abordagem no
             <St infos={c}> Haṭha Yoga </St>
             o curso de
-            <St infos={c}> Formação de Instrutores </St>
+            <St infos={c}> Formação de Instrutores!! </St>
             conta com uma carga horária de
-            <St infos={c}> 200h </St>
+            <St infos={c}> 240h </St>
             e destina-se a toda pessoa interessada em conhecer mais à si mesma, e também em conhecer e ensinar esta tradição.
           </P1>
           <Button
