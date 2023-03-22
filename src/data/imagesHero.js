@@ -12,6 +12,9 @@ import yogaImage11 from '../img/yoga/yoga11.jpeg';
 import yogaImage12 from '../img/yoga/yoga12.jpg';
 import yogaImage13 from '../img/yoga/yoga13.jpg';
 import yogaImage14 from '../img/yoga/yoga14.jpg';
+import heroMestresDoYoga1 from '../img/estudos/mestres/hero1.png';
+import heroMestresDoYoga2 from '../img/estudos/mestres/hero2.png';
+import heroMestresDoYoga3 from '../img/estudos/mestres/hero3.png';
 
 export const imagesHero = [
   yogaImage1,
@@ -40,3 +43,9 @@ export const imagesSquare = [
   yogaImage12,
   yogaImage13,
   yogaImage14];
+
+export const heroMestres = [
+  heroMestresDoYoga1,
+  heroMestresDoYoga2,
+  heroMestresDoYoga3,
+];
