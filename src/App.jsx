@@ -26,7 +26,7 @@ function App() {
         <Global />
         <Routes>
           {/* <Route path="/cursos" element={<Cursos />} /> */}
-          {/* <Route path="/cursos/instrutores" element={<CursosInstrutores />} /> */}
+          <Route path="/instrutores" element={<CursosInstrutores />} />
           {/* <Route path="/artigos" element={<Artigos />} /> */}
           {/* <Route path="/treinamentos" element={<Treinamentos />} /> */}
           <Route path="/sobre" element={<Sobre />} />
@@ -35,7 +35,7 @@ function App() {
           {/* <Route path="/alunos" element={<Alunos />} /> */}
           {/* <Route path="/alunos/:id" element={<AlunosPage />} /> */}
           {/* <Route path="/adminconfigurations" element={<AdminConfigurations />} /> */}
-          <Route exact path="/" element={<CursosInstrutores />} />
+          <Route exact path="/" element={<Silencio />} />
         </Routes>
       </ThemeProvider>
     </div>

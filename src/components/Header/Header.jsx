@@ -27,7 +27,7 @@ export default function Header() {
           <h2>MENTE DE YOGA</h2>
         </LogoNome>
         <Menu>
-          <StLink to="/">FORMAÇÃO</StLink>
+          <StLink to="/instrutores">FORMAÇÃO</StLink>
           {/* <StLink to="/treinamentos">TREINAMENTOS</StLink> */}
           {/* <StLink to="/artigos">ARTIGOS</StLink> */}
           {/* <StLink to="/alunos">ALUNOS</StLink> */}
