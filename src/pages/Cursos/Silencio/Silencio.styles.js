@@ -36,3 +36,49 @@ export const Grid3 = styled.div`
     grid-template-columns: 1fr;
   }
 `;
+
+export const Grid4 = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  @media screen and (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+`;
+
+export const P = styled.div`
+  str {
+    background-color: var(--d1);
+    padding: 4px;
+    border-radius: 4px;
+  }
+`;
+
+export const Botao = styled.div`
+display: flex;
+/* justify-content: center; */
+align-items: center;
+/* width: 350px; */
+/* margin: 12px auto; */
+margin-top: 20px;
+
+
+div {
+  padding: 12px;
+  border: 1px solid var(--g5);
+  border-radius: 8px 0 0 8px;
+}
+a {
+    /* display: flex; */
+    padding: 12px;
+    background-color: var(--laranja);
+    text-decoration: none;
+    color: var(--g1);
+    align-items: center;
+    border: 1px solid var(--g5);
+    border-radius: 0 8px 8px 0;
+    /* padding: 8px; */
+    /* font-size: 12px; */
+  }
+
+`;
