@@ -22,4 +22,7 @@ export const BasicCard = styled.div`
   border-radius: 8px;
   position: relative;
   border: 1px solid var(--g4);
+  p {
+    margin: 12px 0;
+  }
 `;
