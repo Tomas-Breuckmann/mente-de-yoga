@@ -13,7 +13,8 @@ import Global from './Styles/Global';
 // import Alunos from './pages/Alunos';
 // import dark from './Styles/dark';
 import light from './Styles/light';
-import Silencio from './pages/Cursos/Silencio/Silencio';
+import Psicoyoga from './pages/Cursos/Psicoyoga/Psicoyoga';
+// import Silencio from './pages/Cursos/Silencio/Silencio';
 // import Context from './context/context';
 // import AdminConfigurations from './pages/AdminConfigurations/AdminConfigurations';
 
@@ -30,12 +31,13 @@ function App() {
           {/* <Route path="/artigos" element={<Artigos />} /> */}
           {/* <Route path="/treinamentos" element={<Treinamentos />} /> */}
           <Route path="/sobre" element={<Sobre />} />
-          <Route path="/silencio" element={<Silencio />} />
+          <Route path="/psicoyogaterapia" element={<Psicoyoga />} />
+          {/* <Route path="/silencio" element={<Silencio />} /> */}
           {/* <Route path="/estudos" element={<Estudos />} /> */}
           {/* <Route path="/alunos" element={<Alunos />} /> */}
           {/* <Route path="/alunos/:id" element={<AlunosPage />} /> */}
           {/* <Route path="/adminconfigurations" element={<AdminConfigurations />} /> */}
-          <Route exact path="/" element={<Silencio />} />
+          <Route exact path="/" element={<CursosInstrutores />} />
         </Routes>
       </ThemeProvider>
     </div>

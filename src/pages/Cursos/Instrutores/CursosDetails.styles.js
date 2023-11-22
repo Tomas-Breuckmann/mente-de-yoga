@@ -56,11 +56,49 @@ export const A = styled.a`
   text-decoration: none;
 `;
 
-export const Locals = styled.div`
+export const Whats = styled.a`
+    display: flex;
+    /* text-decoration: none; */
+    color: var(--g11);
+    align-items: center;
+    border: 1px solid var(--g5);
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 12px;
+`;
+
+export const WhatsPF = styled.a`
+    display: flex;
+    color: var(--g11);
+    border: 1px solid var(--g5);
+    border-radius: 8px;
+    padding: 4px 4px 0 12px;
+    /* font-size: 12px; */
+`;
+
+export const Locals3 = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
   @media screen and (max-width: 600px) {
     grid-template-columns: 1fr;
+  }
+`;
+
+export const Locals2 = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  @media screen and (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+`;
+
+export const Cidade = styled.div`
+  p {
+    font-weight: 700;
+    background-color: var(--d1);
+    padding: 4px 0 4px 12px;
+    border-radius: 4px;
   }
 `;

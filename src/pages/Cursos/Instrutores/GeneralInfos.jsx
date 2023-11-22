@@ -32,10 +32,10 @@ export default function GeneralInfos() {
           </li>
         </ul>
         <p>
-          O curso usa Metodologias Ágeis que valorizam a colaboração, o
-          protagonismo, a autogestão, a adaptação e principalmente o crescimento
-          contínuo e personalizado, preparando assim os alunos para lidarem com os
-          desafios que irão encontrar e para responderem adequadamente à diversidade de contextos.
+          Valorizamos a colaboração, o protagonismo, a autogestão, a adaptação e
+          principalmente o crescimento contínuo e personalizado, preparando assim os
+          alunos para lidarem com os desafios que irão encontrar e para responderem
+          adequadamente à diversidade de contextos.
         </p>
       </C.GeneralInfos>
     </C.CursosContent>

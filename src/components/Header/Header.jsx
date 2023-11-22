@@ -32,7 +32,8 @@ export default function Header() {
           {/* <StLink to="/artigos">ARTIGOS</StLink> */}
           {/* <StLink to="/alunos">ALUNOS</StLink> */}
           {/* <StLink to="/estudos">ESTUDOS</StLink> */}
-          <StLink to="/silencio">MENTORIA</StLink>
+          {/* <StLink to="/silencio">MENTORIA</StLink> */}
+          <StLink to="/psicoyogaterapia">CURSOS</StLink>
           <StLink to="/sobre">SOBRE</StLink>
           <a href="#footer">
             CONTATOS

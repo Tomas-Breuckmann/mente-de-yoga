@@ -1,8 +1,9 @@
 import React from 'react';
 import {
-  CursosContentAbout, CursosMain,
+  CursosContentAbout, CursosMain, Locals3,
 } from './CursosDetails.styles';
 import * as T from '../../../Styles/texts';
+import * as G from '../../../Styles/Generals';
 
 // eslint-disable-next-line react/prop-types
 export default function Conteudo({ back }) {
@@ -10,20 +11,30 @@ export default function Conteudo({ back }) {
   return (
     <CursosMain back={back}>
       <CursosContentAbout>
-        <T.H3 detach>Programação:</T.H3>
+        <T.H3 detach>As aulas</T.H3>
         {/* <p>Carga horária: 240 h/aula</p> */}
-        <h4>Encontros:</h4>
-        <ul>
-          <li>
-            <T.LIcon />
-            10 encontros presenciais de sábado e domingo – Totalizando 120h
-          </li>
-          <li>
-            <T.LIcon />
-            Atividades Individuais a serem realizadas online com
-            acompanhamento do professor – Totalizando 120hs
-          </li>
-        </ul>
+        {/* <h4>Encontros:</h4> */}
+        <Locals3>
+          <G.BasicCard>
+            <str>Encontros presenciais</str>
+            <p>Um final de semana por mês, totalizando 120h.</p>
+          </G.BasicCard>
+          <G.BasicCard>
+            <str>Aulas online</str>
+            <p>Aulas ao vivo ou gravadas, totalizando 30h.</p>
+            <p>
+              Todas as aulas são gravadas e ficam disponíveis. As(os) alunas(os) podem
+              participar destas aulas mesmo depois de formados. O acesso a elas é vitalício.
+            </p>
+          </G.BasicCard>
+          <G.BasicCard>
+            <str>Atividades Individuais</str>
+            <p>
+              A serem realizadas em casa mediante instruções dadas nos
+              encontros presenciais, totalizando 120h.
+            </p>
+          </G.BasicCard>
+        </Locals3>
         <h4>Material incluso:</h4>
         <ul>
           <li>
@@ -34,18 +45,6 @@ export default function Conteudo({ back }) {
             <T.LIcon />
             Materiais para aulas práticas em sala de aula.
           </li>
-          {/* <T.Li infos={c}>
-            <T.LIcon />
-            Uma camiseta Personalizada
-          </T.Li>
-          <T.Li infos={c}>
-            <T.LIcon />
-            Um tapete para suas práticas em Sala de aula – Ao final do cursos ele será seu.
-          </T.Li> */}
-          {/* <T.Li infos={c}>
-            <T.LIcon />
-            Um livro.
-          </T.Li> */}
         </ul>
         {' '}
         {/* <CardFormacao /> */}

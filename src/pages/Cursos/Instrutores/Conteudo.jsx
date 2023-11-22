@@ -9,31 +9,24 @@ export default function Conteudo() {
   return (
     <CursosMain>
       <CursosContentAbout>
-        <T.H3 infos={c} detach>Conteúdo</T.H3>
+        <T.H3 infos={c} detach>Qual o conteúdo do curso?</T.H3>
+        <str>A serem abordados de forma presencial</str>
         <T.Ul>
           <T.Li infos={c}>
             <T.LIcon />
             Contextualização Histórica do Yoga.
-          </T.Li>
-          <T.Li infos={c}>
-            <T.LIcon />
-            As origens e os fundamentos do Haṭha Yoga.
             <T.Ul>
               <T.Li infos={c}>
                 <T.OIcon />
-                Os upaniṣads do Yoga.
+                As origens do Yoga
               </T.Li>
               <T.Li infos={c}>
                 <T.OIcon />
-                O yoga de Patañjali.
+                As origens do Haṭha Yoga
               </T.Li>
               <T.Li infos={c}>
                 <T.OIcon />
-                O movimento Siddha.
-              </T.Li>
-              <T.Li infos={c}>
-                <T.OIcon />
-                Anatomia energética.
+                O desenvolvimento do Yoga Postural atual
               </T.Li>
             </T.Ul>
           </T.Li>
@@ -43,57 +36,92 @@ export default function Conteudo() {
             <T.Ul>
               <T.Li infos={c}>
                 <T.OIcon />
-                Āsana (posturas).
+                Āsana (posturas)
               </T.Li>
               <T.Li infos={c}>
                 <T.OIcon />
-                Prāṇāyāma (respirações).
+                Prāṇāyāma (respirações)
               </T.Li>
               <T.Li infos={c}>
                 <T.OIcon />
-                Mudrā (selos).
+                Mudrā (selos)
               </T.Li>
               <T.Li infos={c}>
                 <T.OIcon />
-                Dhyāna (meditação).
+                Dhyāna (meditação)
+              </T.Li>
+            </T.Ul>
+          </T.Li>
+
+          <T.Li infos={c}>
+            <T.LIcon />
+            Yoga terapia
+            <T.Ul>
+              <T.Li infos={c}>
+                <T.OIcon />
+                Sequências (kriyās) para os principais sistemas corporais: linfático,
+                circulatório, imunológico, etc.
+              </T.Li>
+              <T.Li infos={c}>
+                <T.OIcon />
+                Práticas para auxilio da ansiedade e depressão.
+              </T.Li>
+              <T.Li infos={c}>
+                <T.OIcon />
+                Técnicas para purificação dos chakras.
               </T.Li>
             </T.Ul>
           </T.Li>
           <T.Li infos={c}>
             <T.LIcon />
-            Temas complementares.
-            <T.Ul>
-              <T.Li infos={c}>
-                <T.OIcon />
-                Introdução ao Ayurveda.
-              </T.Li>
-              <T.Li infos={c}>
-                <T.OIcon />
-                Mantra yoga.
-              </T.Li>
-              <T.Li infos={c}>
-                <T.OIcon />
-                A diversidade do Yoga.
-              </T.Li>
-            </T.Ul>
+            Neurociência e Yoga
           </T.Li>
           <T.Li infos={c}>
             <T.LIcon />
-            Metodologia de ensino do Yoga.
-            <T.Ul>
-              <T.Li infos={c}>
-                <T.OIcon />
-                Aulas individuais.
-              </T.Li>
-              <T.Li infos={c}>
-                <T.OIcon />
-                Aulas em grupo.
-              </T.Li>
-              <T.Li infos={c}>
-                <T.OIcon />
-                Públicos diversos: idosos, crianças, gestantes, obesos.
-              </T.Li>
-            </T.Ul>
+            A diversidade do Yoga: crianças, envelhescimento, o feminino, etc.
+          </T.Li>
+          <T.Li infos={c}>
+            <T.LIcon />
+            Metodologias para treino pessoal, aula individual e aula em grupo
+          </T.Li>
+        </T.Ul>
+        <str>A serem abordados de forma online</str>
+        <p>
+          São possibilidades de temas a serem abordados, principalmente de forma
+          online, de acordo com o interesse da turma.
+        </p>
+        <T.Ul>
+          <T.Li infos={c}>
+            <T.LIcon />
+            Os níveis de consciência
+          </T.Li>
+          <T.Li infos={c}>
+            <T.LIcon />
+            Introdução ao Ayurveda
+          </T.Li>
+          <T.Li infos={c}>
+            <T.LIcon />
+            Introdução a Mantra yoga
+          </T.Li>
+          <T.Li infos={c}>
+            <T.LIcon />
+            Yoga sūtra: os ensinamentos dos sábios antigos
+          </T.Li>
+          <T.Li infos={c}>
+            <T.LIcon />
+            Daśa Mahāvidyā: a sabedoria das 10 Deusas
+          </T.Li>
+          <T.Li infos={c}>
+            <T.LIcon />
+            Yoga e prosperidade
+          </T.Li>
+          <T.Li infos={c}>
+            <T.LIcon />
+            Numerologia Tântrica
+          </T.Li>
+          <T.Li infos={c}>
+            <T.LIcon />
+            Yoga e relacionamentos
           </T.Li>
         </T.Ul>
         {/* <CardFormacao /> */}
